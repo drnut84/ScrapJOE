@@ -3,6 +3,8 @@
 Created on Wed Sep 20 22:11:19 2017
 
 @author: sang
+This Code scrap all job posting in JOE
+
 """
 def post_f(posting,p_num,Nop):
     inst_title=posting.find('h5', {'class':"group-header-title"}).text.strip()
